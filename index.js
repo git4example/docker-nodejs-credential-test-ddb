@@ -27,7 +27,7 @@ chain.resolve((err, cred)=>{
 }, (err) => {
   console.log(err);
 });
-
+/*
 var dynamodb = new AWS.DynamoDB();
 logSingleItem();
 
@@ -50,7 +50,8 @@ async function logSingleItem(){
         console.error(error);
   }
 }
-/*
+*/
+
 var i=0, j,n;
 var x = 0.0000001;
 var params = {};
@@ -79,7 +80,7 @@ for(;;){
   }
 }
 
-
+/*
 function getTable() {
   try{
       
